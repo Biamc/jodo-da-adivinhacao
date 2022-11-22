@@ -1,0 +1,121 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+ 
+}
+body {
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main{
+  
+  
+  
+  
+  background: #FFFFFF;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+
+  padding-bottom: 6.4rem;
+
+  width: min(42.8rem, 90%);
+
+  margin-top: -12rem;
+  text-align: center;
+  
+}
+
+button {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #FFFFFF;
+
+background-color: #7879F1;
+cursor: pointer;
+transition: background-color 5ms;
+}
+
+button:hover {
+  background-color: hsl(240, 71%, 60%);
+}
+
+.hide {
+  display: none;
+}
+
+/*====SCREAM 1 =====*/
+
+main .text{
+  margin: 4.8rem 6.4rem 4.8rem 6.4rem;
+}
+
+h1{
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: hsla(240, 27%, 28%, 1);
+  margin-bottom: 1.6rem;
+  text-align: center;
+  
+}
+
+p{
+  font-family: 'DM Sans', sans-serif;
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: hsla(238, 27%, 28%, 0.8);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+ input, button {
+  border: none;
+  padding: 1.6rem;
+ }
+
+ input {
+  background-color: hsla(212, 23%, 89%, 1);
+  width: 6rem;
+  border-radius: .4rem 0 0 .4rem;
+ }
+
+button {
+
+  
+  
+  border-radius: 0 4px 4px 0;
+  border: none;
+}
+
+
+/*screen 2*/
+
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2.4rem;
+ line-height: 150%;
+ color:hsla(240, 27%, 28%, 1);
+ margin: 4.8rem 6.4rem 3.3rem 6.4rem;
+}
+
+.screen-2 button {
+  border-radius: 4px;
+}
